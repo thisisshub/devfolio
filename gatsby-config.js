@@ -1,58 +1,71 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `http://thisisshub.in`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Shubhashish Dixit',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Shubhashish Dixit | Python Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `A developer with knack for chess`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@thisisshub`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/thisisshub`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/shubhashish-dixit-81629a186/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `A skilled python developer who is driven to work in a motivated environment to utilize my training to get the job done`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Rpmlint',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Rpmlint is a tool for checking common errors in rpm packages',
+        link: 'https://github.com/thisisshub/rpmlint',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'DSA',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'Implemented Data Structures and Algorithms in Python',
+        link: 'https://github.com/thisisshub/DSA',
       },
       {
-        name: 'Another Cool Project',
+        name: 'Notes Website',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Developed a website that allows students to store, upload, download, filter (on the basis of branch and semester)',
+        link: 'https://github.com/thisisshub/django_project',
+      },
+      {
+        name: 'E-Certifcate Generator',
+        description:
+          'An E-Certificate Generator built using cv2 which makes a 1000+ template certificates under 10 secs with different attendee names',
+        link: 'https://github.com/thisisshub/version-beta'
+      },
+      {
+        name: 'Alexis OS',
+        description:
+          'An Operating System Alexis OS which uses generic Linux kernel 4.2.0 and Rescue CD ISO using Linux From Scratch 8.2',
+        link: 'https://github.com/thisisshub/Alexis'
       },
     ],
+
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Google Summer of Code',
+        description: 'Student Developer, June 2020 - September 2020',
+        link: 'https://gist.github.com/thisisshub/8610913957eeb17c14381923968bf4c8',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Madhya Pradesh Electrical Board',
+        description: 'Student Intern, June 2019 - July 2019',
+        link: ''
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Freelancer',
+        description: 'Full-Stack Developer, June 2018 - August 2019',
+        link: ''
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,7 +73,7 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Python, JavaScript, Node.js, React',
       },
       {
         name: 'Databases',
